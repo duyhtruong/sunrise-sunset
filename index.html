@@ -6,23 +6,27 @@
 	<title>Sunrise Sunset</title>
 	<link href='style.css' rel='stylesheet'>
 	<meta name="viewport" content="width=device-width">
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-</head>
 
+
+</head>
+<header>
+	<h1>Golden Hour</h1>
+</header>
 <body>
 
 
-<p id='userInput'>user input here  </p>
+<div class='inputs'>
+	<p id='userInput'></p>
+	<p id='userInput2'></p>
+</div>
+	<form>
+		<input type='text' id='city' value='Location'>
+	</form>
 
-<form>
-<input type='text' id='city'>
-<button id='btn'>button</button>
-</form>
+	
 
-<script src='script.js'></script>
+	<script src='script.js'></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBg70uBXWb-Akwa9fy8q70E91SgPhlXWok"></script>
 </body>
 
 
