@@ -57,10 +57,11 @@ geocoder.geocode( { "address": loc}, function(results, status) {
 					var hourtest = adjustedSunriseDate.getUTCHours(); 
 					var mintest = '0'+adjustedSunriseDate.getUTCMinutes();
 					
-					var sunsetDisplay = 'sunset' + '<br>' + hourSunset+ ':' + minSunset.substr(-2) + 'PM';
-					var sunriseDisplay = 'sunrise:'+ '<br>'+ hourtest+':'+mintest.substr(-2) + 'AM'
+					var sunsetDisplay = 'Sunset:' + '<br>' + hourSunset+ ':' + minSunset.substr(-2) + ' PM';
+					var sunriseDisplay = 'Sunrise:'+ '<br>'+ hourtest+':'+mintest.substr(-2) + ' AM'
 					document.getElementById('userInput').innerHTML = sunriseDisplay;
 					document.getElementById('userInput2').innerHTML = sunsetDisplay;
+					
 				}
 				request2.send();
 
@@ -72,11 +73,6 @@ request.send();
 
     }
 });
-
-}  
-});
-
-
 
 
 
