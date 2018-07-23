@@ -12,9 +12,7 @@ header{
 form{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	
-
+	justify-content: center;	
 }
 
 .inputs {
@@ -25,9 +23,9 @@ form{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	
-}
+	}
 
 .u1 {
 	padding-right: 5em;
 }
+

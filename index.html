@@ -3,32 +3,33 @@
 
 <head>
 	<meta charset='utf-8'>
-	<title>Sunrise Sunset</title>
+	<title>Golden Hour</title>
 	<link href='style.css' rel='stylesheet'>
 	<meta name="viewport" content="width=device-width">
-
-
 </head>
+
+
 <header>
 	<h1>Golden Hour</h1>
 </header>
+
+
 <body>
 
+	<div class='inputs'>
+		<div class=u1>
+			<p id='sunrise'></p>
+		</div>
+		<div class=u2>
+			<p id='sunset'></p>
+		</div>
+	</div>
 	
 
-<div class='inputs'>
-	<div class=u1>
-	<p id='userInput'></p>
-</div>
-<div class=u2>
-	<p id='userInput2'></p>
-</div>
-</div>
 	<form>
-		<input type='text' id='city' value='Location'>
+		<input type='text' id='userInput' value='Location'>
 	</form>
 
-	
 
 	<script src='script.js'></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBg70uBXWb-Akwa9fy8q70E91SgPhlXWok"></script>
