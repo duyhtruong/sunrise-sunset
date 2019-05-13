@@ -1,0 +1,91 @@
+body{
+	background: linear-gradient(185deg, #0181ea, #dee17d);
+	background-size: 150% 150%;
+	-webkit-animation: AnimationName 9s ease infinite;
+	-moz-animation: AnimationName 9s ease infinite;
+	animation: AnimationName 9s ease infinite;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.3s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+
+.u1 {
+	font-size: 5em;
+	margin-top: 1em;
+	color: #FFF;
+	font-family: 'Helvetica', 'Arial';
+}
+.u2{
+	font-size: 5em;
+	margin-bottom: 1em;
+	color: #FFF;
+	font-family: 'Helvetica', 'Arial';
+}
+
+.mastercontainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+
+
+.header{
+	font-family: 'Helvetica', 'Arial';
+	font-size: 2em;
+
+	color: #FFF;
+
+}
+
+.container{
+	padding-bottom: 1em;
+
+}
+
+#userInput{
+	background-color: transparent ;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+	color: #FFF;
+}
+::placeholder{
+	color: #FFF;
+}
+
